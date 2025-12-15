@@ -8,8 +8,10 @@ variables:
 resources:
   repositories:
     - repository: templates
-      type: git
+      type: github
       name: rmunerap/pipelines-templates
+      ref: refs/heads/develop
+      endpoint: github-connection
 
 pool:
   vmImage: ubuntu-latest
