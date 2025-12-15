@@ -3,7 +3,7 @@ trigger:
 - master
 
 variables:
-- group: dockerhub-creds
+- group: dockerhub
 
 resources:
   repositories:
