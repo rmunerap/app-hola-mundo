@@ -9,7 +9,7 @@ resources:
   repositories:
     - repository: templates
       type: git
-      name: azure-pipelines-templates
+      name: rmunerap/pipelines-templates
 
 pool:
   vmImage: ubuntu-latest
